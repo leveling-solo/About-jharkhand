@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background: #86C8BC;
+
+}
+
+
+ /* font-family: 'Alegreya', serif; */
+ /* font-family: 'Cardo', serif; */
+ /* font-family: 'Cinzel', serif; */
+ /* font-family: 'Josefin Slab', serif; */
+ /* font-family: 'Kenia', cursive; */
+ /* font-family: 'Orbitron', sans-serif; */
+ /* font-family: 'Playfair Display SC', serif; */
+ /* font-family: 'Rubik 80s Fade', cursive; */
+ /* font-family: 'EB Garamond', serif ; */
+
+
+/*  this is for background image  */
+.header-img {
+    background:url('img/istockphoto-1325410596-612x612.jpg');
+    width: 98%;
+    height: 80vh;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    border: 1px solid white;
+    border-radius: 10px 10px 0% 0% ;
+   margin: 1vh 1vw;
+
+}
+/* This is for the navigation bar  */
+.nav-bar{
+    font-style: none;
+    text-decoration: none;
+    margin: 16px;
+}
+.nav-bar ul{
+    display: flex;
+    flex-direction:row ;
+    list-style: none;
+    justify-content: right;
+}
+.nav-bar ul li{
+    padding-right: 2vw;
+    font-size: 3.2vw;
+    font-weight: bold;
+
+    text-shadow: 0px 0px 2px red;
+}
+.nav-bar a{
+    text-decoration: none;
+font-family: 'Orbitron';
+color: black;
+}
+
+/*it is for  visit jharkhand and about it .   */
+.visit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 28vh;
+}
+.visit button{
+    padding: 3vh 3vw;
+    font-size: 2vw;
+ font-family: 'Cardo', serif;
+ font-weight: bold;
+ background:darkred; 
+
+ border-radius: 15px ; 
+
+}
+.visit button a {
+text-decoration: none;
+
+}
+.visit h3{
+    color:yellow;
+    font-size: 2vw;
+ text-shadow:  0px 0px 11px red;
+}
+
+/* below code is for the  picture in the row ` */
+.row-img{
+    background: #E3ACF9;
+    display: flex;
+    justify-content: space-between;
+
+}
+.row-img a  {
+ text-decoration: none;
+ color:blue
+}
+.first-img{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+margin:0vh 3vw;
+}
+.img-1{
+   width: 40%;
+   height: 20vh;
+
+  
+   margin-top: 6vh ;
+
+   margin-right: 2vw; 
+   margin-left: 1vw;
+   margin-bottom: 1vh;
+   border-radius: 50%;
+   border: 2px solid salmon;
+}
+.img-2{
+    width: 30%;
+    height: 20vh;
+ 
+   
+    margin-top: 6vh ;
+ 
+    margin-right: 2vw; 
+    margin-left: 1vw;
+    margin-bottom: 1vh;
+    border-radius: 50%;
+    border: 2px solid salmon;
+ }
+.img-3{
+    width: 50%;
+   height: 20vh;
+
+  
+   margin-top: 6vh ;
+
+   margin-right: 2vw; 
+   margin-left: 1vw;
+   margin-bottom: 1vh;
+   border-radius: 50%;
+   border: 2px solid salmon;
+}
+.first-img p {
+    margin:2vh 0vw ;
+    font-size: 1.2vw;
+ font-family: 'EB Garamond';
+ font-weight: bold;
+}
+/* below code for tour guide  */
+
+ .guide{
+   background: #ddebf8;
+   display: flex;
+   justify-content: space-evenly; 
+   width: 55%;
+   margin:10vh auto;
+   border-radius: 13px;
+   border-bottom: 8px solid #d8cefe ;
+   
+
+
+ }
+
+
+ .tour-img img{
+    width:15vw ;
+    border-radius: 50%;
+    padding: 5vh 0vw;
+ }
+.about{
+text-align: center;
+padding: 10vh 0vw;
+
+}
+.about p { 
+    font-size: 2vw;
+    border-bottom: 1px solid red;
+}
+
+/* for padding in the box  for row  */
+.padding{
+    padding: 0vh 3vw;
+}
+.padding1{
+    padding: 0vh 1vw;
+    
+}

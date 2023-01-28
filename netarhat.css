@@ -1,0 +1,200 @@
+/* css for netarhat table  */
+.netarhat-table{
+   
+
+    text-align: center;
+    float: right;
+    margin-right: 2vw;
+    margin-bottom: 5vw;
+
+    background: #D9ACF5;
+    border-bottom: 5px solid #674188;
+    border-radius: 5px;
+
+    box-shadow: 5px 9px 11px black;
+}
+.netarhat-table h1{
+    font-size: 2.4vw;
+    background: #FFD384;
+    padding: 1vh 0vw;
+    
+    box-shadow: 5px 9px 11px black;
+    border-radius: 5px;
+    border-bottom: 5px solid #FF884B;
+    font-family: 'Crimson Text', serif;
+
+}
+iframe{
+    margin-bottom: 2vw;
+}
+.netarhat-table img{
+    width: 95%;
+}
+.netarhat-table td{
+    text-align: center;
+    padding: 1vh 0vw;   
+    font-size: 2.4vh;
+}
+.netarhat-table table th{
+    display: block;
+}
+  
+/* css for netarhat table end here */
+
+/* css for content box */
+.content-box{
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    padding:  0vh 1vw;
+    padding-bottom: 2vh;
+    background: #D9ACF5;
+    border-bottom: 5px solid #674188;
+
+}
+.content-box h5{
+    background: #FFD384;
+    padding: 1vh 0vw;
+    
+    box-shadow: 5px 9px 11px black;
+    border-radius: 5px;
+    border-bottom: 5px solid #FF884B;
+    font-family: 'Crimson Text', serif;
+
+
+    font-size: 1.5vw;
+}
+.content-box p {
+    background: #FFD384;
+    padding: 1vh 0vw;
+    
+    box-shadow: 5px 9px 11px black;
+    border-radius: 5px;
+    border-bottom: 5px solid #FF884B;
+    font-family: 'Crimson Text', serif;
+}
+.content-box a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.content-box p:hover{
+    background-color: gold;
+
+}
+/* css for content box  end here*/
+
+/* css for all the title */
+
+.second-title{
+    background: #D9ACF5;
+    width: 75%;
+    border-bottom: 5px solid #674188;
+    border-radius: 5px;
+
+    padding-left: 2%;
+
+    display: flex;
+    align-items: center;
+    margin-top: 5vw;
+}
+.third-title{
+    background: #D9ACF5;
+    width: 75%;
+    border-bottom: 5px solid #674188;
+    border-radius: 5px;
+
+    padding-left: 2%;
+
+    display: flex;
+    align-items: center;
+    margin-top: 5vw;
+}
+.fourth-title{
+    background: #D9ACF5;
+    width: 98%;
+    border-bottom: 5px solid #674188;
+    border-radius: 5px;
+
+    padding-left: 2%;
+
+    display: flex;
+    align-items: center;
+    margin-top: 5vw;
+}
+.fifth-title{
+    background: #D9ACF5;
+    width: 98%;
+    border-bottom: 5px solid #674188;
+    border-radius: 5px;
+
+    padding-left: 2%;
+
+    display: flex;
+    align-items: center;
+    margin-top: 5vw;
+}
+.sixth-title{
+    background: #D9ACF5;
+    width: 98%;
+    border-bottom: 5px solid #674188;
+    border-radius: 5px;
+
+    padding-left: 2%;
+
+    display: flex;
+    align-items: center;
+    margin-top: 5vw;
+}
+/* css for all the title  are end here except fisrt heading title */
+/* css for first heading title  */
+.first-title{
+    background:#F2CD5C;
+    width: 98%;
+    border-bottom: 5px solid #F2921D;
+    border-radius: 5px; 
+
+    padding-left: 2%;
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+h1{
+    font-family: 'Crimson Text', serif;
+}
+/* css for first heading title   ends here*/
+
+/* css for paragarph  */
+P{
+    font-family: 'Cormorant', serif;
+    font-weight: bold;
+    font-size: 170%;
+    color: white;
+    text-shadow: 0px 0px 5px red;
+}
+body{
+    background: url("netarhat-img/istockphoto-481483989-612x612.jpg");
+    background-size: cover;
+}
+
+footer{
+    display: flex;
+    height: 15vh;
+    
+    justify-content: center;
+    align-items: flex-end;
+
+}
+button  {
+    padding: 2vh 8vw;
+    text-decoration: none;
+    background: red;
+    font-size: 4vw;
+    border-radius: 14px ;
+}
+button a { 
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}

@@ -1,0 +1,27 @@
+.nav-bar a:hover{
+ background-color: red;
+ border:3px solid black ;
+ border-radius: 7px;
+}
+
+button:hover{
+    background-color: red;
+}
+
+.first-img:hover{
+    background: purple;
+    color: aqua;
+
+}
+
+.first-img a h1:hover{
+    color:bisque;
+    background-color:orange;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 480px) {
+.first-img:hover{
+     background: none;
+     color: black;
+}
+}

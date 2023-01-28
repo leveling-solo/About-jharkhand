@@ -1,0 +1,949 @@
+/* Tabs */
+/* font-family: 'Alegreya', serif;
+font-family: 'Cardo', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Cormorant', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Kenia', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Rubik 80s Fade', cursive; */
+@media only screen and (min-width: 668px) and (max-width: 1024px) {
+  
+  }
+  
+  /* Mobile */
+  @media only screen and (max-width: 480px) {
+    /* Styles for mobile here */
+    /* this below code for table making  */
+  
+body{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    background:#425F57;
+
+}
+    
+.about-jharkhand{
+    display: flex;
+    flex-direction: column;
+}
+.jharkhand-table{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    float: right;
+    width: 95%;
+    box-shadow: 5px 9px 11px black;
+    border: 3px solid darkgray;
+    border-radius: 5px;
+    border-bottom: 5px solid #CCD6A6 ;
+    
+}
+
+.jharkhand-table table th {
+    font-size: 6vw;
+    padding: 0vw;
+    text-align: center;
+
+} 
+.jharkhand-table table td{
+    text-align: center;
+    padding: 1vh 0vw;
+    font-size: 5vw;
+
+
+}
+.jharkhand-table tr{
+    background:lightgrey;
+}
+.full-1{
+    width: 88%;
+    border-radius: 5px ;
+    
+}
+
+.half{
+    width: 95%;
+    border-radius: 5px;
+}
+.jharkhand-table h2 {
+    background-color: #93C6E7 ;
+    padding: 1vh  0vw;
+    border: 1px solid greenyellow;
+    border-radius: 5px ;
+    font-size: 7vw;
+    font-family: 'Cinzel', serif;
+
+    width: 95%;
+    margin-left: 1.5vw;
+    border-bottom: 4px solid #B9F3FC;
+    box-shadow: 5px 9px 11px black;
+
+}
+.jharkhand-heading h1{
+    font-size: 9vw;
+    width: 47vw;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;    
+
+    border-radius:8px ;
+    background: #A6BB8D;
+    border-bottom:4px solid #3C6255 ;
+    
+    text-shadow: 1px 1px 1px lightseagreen;
+    box-shadow: 5px 9px 11px black;
+
+}
+.jharkhand-table h3 {
+    background-color: #93C6E7;
+    padding: 1vh  0vw;
+    border: none;
+    border-bottom: 4px solid #B9F3FC;
+    border-radius: 5px ;
+    font-size: 7vw;
+font-family: 'Cinzel', serif;
+    
+    width: 95%;
+    margin-left: 1.5vw;
+    box-shadow: 5px 9px 11px black;
+
+
+}
+
+/* the code for  table and resize the image end here  */
+
+/* here start the design for header and paragraph  */
+
+.first-paragarph p{
+    padding: 2vh 2vw;
+    font-family: 'EB Garamond', serif;
+    color: aqua;
+    text-shadow: 1px 1px 5px black;
+    font-size: 6vw;
+}
+.etymology h1{
+    background-color: #93C6E7;
+    padding: 1vh  0vw;
+    border: none;
+    border-bottom: 4px solid #B9F3FC;
+    border-radius: 5px ;
+    font-size: 7vw;
+    font-family: '  Cinzel', serif;
+    text-transform: uppercase;
+    width: 95%;
+    margin-left: 1.5vw;
+    box-shadow: 5px 9px 11px black;
+    text-shadow: 1px 1px 3px red;
+
+}
+.etymology p{
+    padding: 2vh 2vw;
+    font-family: 'EB Garamond', serif;
+    color: aqua;
+    text-shadow: 1px 1px 5px black;
+    font-size: 6vw;
+}
+.history h1{
+    background-color: #93C6E7;
+    padding: 1vh  0vw;
+    border: none;
+    border-bottom: 4px solid #B9F3FC;
+    border-radius: 5px ;
+    font-size: 7vw;
+    font-family: '  Cinzel', serif;
+    text-transform: uppercase;
+    width: 95%;
+    margin-left: 1.5vw;
+    box-shadow: 5px 9px 11px black;
+    text-shadow: 1px 1px 2px red;
+
+    display: inline-block;
+    padding-left: 26vw;
+    padding-right: 53vw;
+
+
+}
+ .history p{
+    padding: 2vh 2vw;
+    font-family: 'EB Garamond', serif;
+    color: aqua;
+    text-shadow: 1px 1px 5px black;
+    font-size: 6vw;
+}
+
+.history h3{
+    background-color: #93C6E7;
+    padding: 1vh  0vw;
+    border: none;
+    border-bottom: 4px solid #B9F3FC;
+    border-radius: 5px ;
+    font-size: 7vw;
+    font-family: '  Cinzel', serif;
+    text-transform: uppercase;
+    width: 95%;
+    margin-left: 1.5vw;
+    box-shadow: 5px 9px 11px black;
+    text-shadow: 1px 1px 2px red;
+
+}
+.post_independence h3{
+   position: relative;
+   right: 2vw;
+   text-align: center;
+}
+.rivers h3{
+    width: 90%;
+    font-size: 6vw;
+}
+.FLora-and_fauna h3{
+    width: 90%;
+    font-size: 6vw;
+}
+.hills-mountain h3{
+    width: 90%;
+    font-size: 5vw;
+}
+h1{
+    background-color:lightblue;
+
+    padding: 2vh ;
+    padding-left: 21vw;
+    padding-right:21vw ;
+    
+    text-align: center;
+    
+    font-size: 9vw;
+    text-shadow: 2px 1px 15px lightgrey;
+    border-radius: 15px 15px 0px 0px;
+    display: inline-block;
+}
+
+/* ends here */
+
+/* bundle of image */
+.first-image img{
+    width:80vw;
+    height: 40vh;
+}
+.first-image{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    
+    border: 2px solid lightgrey;
+    border-radius: 5px ;
+
+    padding-top:3vw;
+    margin-bottom: 5vh;
+    box-shadow: 5px 9px 11px black;
+
+
+}
+
+.second-img img{
+    width: 36vw;
+    padding-left: 4vw;
+    
+}
+.second-img {
+    display: flex;
+    text-align: center;
+
+    border: 2px solid lightgrey;
+    border-radius: 5px ;
+
+    padding-top:3vw;
+    margin-bottom: 5vh;
+    box-shadow: 5px 9px 11px black;
+}
+.first-image, .third-img, .second-img ,p{
+    font-size: 4.9vw;
+}
+.third-img img{
+    width: 40vw;
+    padding-left: 4vw;
+    border-bottom: 5px;
+    
+    
+}
+.third-img{
+    display: flex;
+    text-align: center;
+
+    border: 2px solid lightgrey;
+    border-radius: 5px ;
+
+    padding-top:3vw;
+    margin-bottom: 5vh;
+    justify-content: space-around;
+    box-shadow: 5px 9px 11px black;
+
+}
+
+/* ends here  */
+/* css for third phase  */
+.third-phase{
+    display: flex;
+    flex-direction: column;
+}
+.third-phase-img img{
+    padding-top: 2vh;
+    padding-right: 1vw;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    width: 83vw;
+
+   }
+   .third-phase-img{
+      display: flex;
+      flex-direction: column;
+
+   }
+   .tp-img{
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    color: red;
+    box-shadow: 5px 9px 11px black;
+    border: 4px solid lightgray;
+
+
+   }
+   /* ends here */
+   /* css for post -independence */
+.post_independence{
+    display: flex;
+    flex-direction: column;
+}
+.post_independence-img {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    text-align: center;
+
+    box-shadow: 5px 9px 11px black;
+    border: 4px solid lightgray;
+    color: blue;
+}
+.ps-img2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    border: 4px solid lightgray;
+    box-shadow: 5px 9px 11px black;
+
+
+    color: blue;
+    font-size: 0.8vw;
+    width: 85vw;
+    margin-left: 1.5vw;
+}
+
+
+.post_independence h1{
+    display:inline-block;
+    padding-left: 6vw;
+    text-align: center;
+}
+
+/* ends here */
+/* css for jharkhand-statehood */
+.jk-sh h1{
+ display: inline-block;
+ padding-left: 9vw;
+}
+
+/* ends here  */
+/* css for climate  , including hills moutian , rivers */
+
+.climate h1{
+    display: inline-block;
+    padding-left: 9vw;  
+}
+.climate{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.c-img{
+    display: flex;
+    flex-direction: column;
+    float: right;
+
+    width: 85vw;
+    font-size: 0.8vw;
+    text-align: center;
+
+    box-shadow: 5px 9px 11px black;    
+    border: 1px solid lightgray;
+    color: blue;
+    
+    margin-top: 3vh;
+    margin-left: 1vw;
+}
+.hills-mountain h1{
+    display: inline-block;
+    padding-left: 9vw;  
+}
+.rivers h1{
+    display: inline-block;
+    padding-left: 9vw;  
+}
+
+
+/* ends here  */
+/* css for flora and fauna  */
+
+.FLora-and_fauna h1{
+    padding-left: 9vw;    
+
+}
+.flora-and-fauna-img{
+    display: flex;
+    flex-direction: column;
+
+}
+.faf-section1{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    font-size: 0.8vw;
+    text-align: center;
+    padding-right: 1vw;
+
+    margin-left: 4vw;
+    margin-bottom: 3vh;
+    
+    box-shadow: 5px 9px 11px black;
+    border: 3px solid lightgrey;
+    
+
+}
+.faf-section2{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    font-size: 0.8vw;
+    text-align: center;
+    padding-right: 1vw;
+
+    margin-left: 4vw;
+    margin-bottom: 3vh;
+    
+    box-shadow: 5px 9px 11px black;
+    border: 3px solid lightgrey;
+
+
+}
+.faf-section3{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    font-size: 0.8vw;
+    text-align: center;
+    padding-right: 1vw;
+
+    margin-left: 4vw;
+    margin-bottom: 3vh;
+    
+    box-shadow: 5px 9px 11px black;
+    border: 3px solid lightgrey;
+}
+/* ends here */
+/* css for historical population Demographics */
+.geographics h1{
+    display:inline-block;
+    padding-left: 9vw;
+
+}
+.all-geo{
+    display: flex;
+    flex-direction: column;
+}
+.geographics-table{
+
+    border: 1px solid lightgrey;
+    padding: 0vh 1vw;
+    margin-bottom: 2vh;
+    text-align: center;
+    box-shadow: 5px 9px 11px black;
+    
+    margin-right: 1vw;
+    margin-left:1vw;
+    border:none; 
+    border-radius: 7px;
+}
+.geographics-table h4{
+    box-shadow: 5px 9px 11px black;
+     font-size: 7vw;
+    text-shadow: 1px 1px 3px red;
+} 
+.geographics-table table td, th{
+    padding: 1.9vh 8vw;
+    font-size: 4.2vw;
+}
+.geographics-table th{
+    border-bottom: 1px solid black;
+    font-size: 5vw;
+}
+.geographics-table h4{
+    background: lightblue;
+    padding: 2vh 2vw;
+    border-radius:50% ;
+}
+/* ends here  */
+/* csss for langugae  */
+.languages h3{
+    width: 90%;
+    font-size: 6vw;
+}
+.language-table table{
+    width: 85vw;
+    margin-left: 2vw;
+
+    margin-bottom:12vh;
+    padding: 0vh 6vw;
+    
+    box-shadow: 5px 9px 11px black;
+    border:none; 
+    border-radius: 7px;
+
+}
+
+.language-table th{
+    background: lightblue;
+    padding: 2vh 2vw;
+    border-radius:50% ;
+    font-size: 7vw;
+    box-shadow: 5px 9px 11px black;
+    text-shadow: 1px 1px 3px red;
+
+}
+.language-table table td {
+   padding: 1.2vh 0vw;
+   font-size: 6vw;
+   text-align: center;
+}
+/* ends here  */
+/* csss for religion table */
+.all-about-religion{
+display: flex;
+flex-direction: column;
+}
+.religion-table {
+    width: 85vw;
+    margin-bottom:12vh;
+    padding: 1vh 0vw;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    font-size: 6vw;
+
+    border: 1px solid lightgrey;
+    box-shadow: 5px 9px 11px black;
+    border:none; 
+    border-radius: 7px;
+
+}
+.religion-img img{
+    margin-left: 0.3vw;
+    margin-bottom: 3vw;
+    width: 50%;
+    border-radius: 8px;
+    
+}
+.religion-table th{
+    background: lightblue;
+    padding: 2vh 2vw;
+    border-radius:50% ;
+    font-size: 6vw;
+    text-shadow: 1px 1px 2px red;
+    box-shadow: 5px 9px 11px black;
+
+}
+.religion-table table td {
+    text-align: center;
+ }
+.religion-paragarph h5{
+    font-size: 1.3vw;
+    text-align: center;
+    background:crimson;
+    display: inline-block;
+   
+    padding-left: 6vw;
+    padding-right: 5vw;
+    padding-top:1vh ;
+    padding-bottom: 1vh;
+
+    margin: 1vh;
+    border-radius: 18px 18px 18px 18px;
+    box-shadow: 5px 9px 11px black;
+}
+.religion-table img{
+    width: 82vw;
+    float: right;
+    padding-right: 1.4vw;
+}
+.religion-paragarph h5{
+       font-size: 6vw;
+       padding-left: 32vw;
+       padding-right:30vw ;
+}
+/* ends here */
+/* css for adminstrative districts */
+.Goverment-and-administration h3 {  
+    width: 90%;
+    font-size: 6vw;
+}
+.administrative-districts h1{
+    width: 25vw;
+    padding-left: 10vw;
+}
+
+.division-and-districts-table  {
+    font-size: 3.2vw;
+    padding-left: 1vw; 
+    text-align: center;
+
+    box-shadow: 5px 9px 11px black;
+    border-radius: 7px;
+}
+.division-and-districts-table td{
+    padding: 1.6vh 1vw ;
+}
+.division-and-districts-table th{
+    background: lightcoral;
+    border-radius: 10px;
+    box-shadow: 5px 9px 11px black;
+
+    
+}
+/* ends here */
+/* css for major cities  */
+.major-cities-table h3{
+    margin-right: 5vw;
+}
+.major-cities-table{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 2.2vw;
+    padding-left: 4vw; 
+    text-align: center;
+    box-shadow: 5px 9px 11px black;
+    border-radius: 7px;
+}
+.major-cities-table th{
+    background: lightcoral;
+    border-radius: 10px;
+    box-shadow: 5px 9px 11px black;
+}
+.major-cities-table td,th {
+    padding:.1vw;
+    font-size: 3.3vw;
+}
+
+.major-cities-img{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 82vw;
+
+}
+.major-cities-img img{
+    width: 53vw;
+    margin: 4vw;
+}
+
+.box1 {
+    box-shadow: 5px 9px 11px black;
+    border-radius: 10px;
+    border: 4px solid lightgrey;
+   padding-top: 1vw;
+   margin-bottom: 3vw;
+}
+.major-cities-img .box1  p{
+ font-size: 7vw;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+ justify-content: center;    
+}
+.major-cities-table h4{
+    font-size: 2vh;
+}
+.major-cities-t  td {
+    padding: 1vh 1vw ;
+    font-size: 2vh;
+}
+.major-cities-t th{
+    font-size: 2vh;
+}
+/* ends here */ 
+/* css for Economy  */
+.Economy h1{
+    display: inline-block;
+    padding-left: 4vh;
+}
+.Economy{
+    display:flex;
+    flex-direction: column;
+}
+.economy-img img{
+    margin: 1vw;
+}
+.economy-img{
+    display: flex;
+    flex-direction: column;
+    width: 84vw;
+    border: 4px solid lightgrey;
+    box-shadow: 5px 9px 11px black;
+
+
+
+    margin: 1vw;
+    font-size: .9vw;
+    text-align: center;
+}
+/* ends here */
+/* css for culture */
+
+.cuisine-img{
+    font-size: 0.9vw;
+    float: left;
+    margin: 1vw;
+
+    box-shadow: 5px 9px 11px black;
+    border: 4px solid lightgrey;
+    text-align: center;
+    padding: 1vw;
+}
+.cuisine-img img{
+    margin-top: 3vh;
+}
+.culture h1{
+    padding-left: 10vw;
+}
+.culture{
+    display: flex;
+    flex-direction: column;
+}
+/* ends here */
+/* css for folk music and dance  */
+.Folk-music-and-dance h1{
+ padding-right:16vh ; 
+}
+
+.folk-music-and-dance-img{
+    
+    font-size: 0.9vw;
+    float: left;
+    margin: 1vw;
+    border: 4px solid lightgrey;
+    text-align: center;
+    padding: 1vw;
+    box-shadow: 5px 9px 11px black;
+    border-radius: 5px;
+
+    }
+    .section-1{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        margin: 1vw;
+        justify-content: center;
+
+        border: 4px solid lightgrey;
+        box-shadow: 5px 9px 11px black;
+
+    }
+    .festivals h1{
+        padding-right: 35vw;
+    }
+    .festivals-img{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       text-align: center;
+    }
+    /* ends here */
+    /* css for painting */
+    .painting h1{
+        padding-left: 15vw;
+      
+    }
+    
+
+    .painting-img{
+        font-size: 0.9vw;
+    float: left;
+    margin: 1vw;
+    text-align: center;
+    padding: 1vw;
+    border: 4px solid lightgrey;
+    box-shadow: 5px 9px 11px black;
+
+    }
+    /* ends here */
+    
+    /* css for  image for transport in last */
+    .air h3{
+        width: 90%;
+    font-size: 6vw;
+    }
+    .Roads h3{
+        width: 90%;
+        font-size: 6vw;
+    }
+    .ports h3{
+        width: 90%;
+    font-size: 6vw;
+
+    }
+    .rall h1{
+        width: 10vw;
+
+    }
+    .transport-img{
+     display: flex;
+        flex-direction: column;
+      align-items: center;
+    }
+    .transport-img img{
+        width: 70vw;
+        margin: 1vw;
+    }
+    .section-2{
+        border: 4px solid lightgrey;
+        box-shadow: 5px 9px 11px black;
+
+    }
+    /* ends here */
+    
+    /*css for universities and colleges   */
+
+    .education h1{
+        width: 10vw;
+    }
+    .school-title h1{
+        width: 10vw;
+    }
+    .college-title h1{
+        width: 10vw;
+
+    }
+    .birla-institute-img{
+        font-size: 0.9vw;
+        margin: 1vw;
+        text-align: center;
+        padding: 1vw;
+        box-shadow: 5px 9px 11px black;
+        border: 4px solid lightgrey;
+    }
+    .birla-institute-img img{
+        width: 85vw;
+    }
+    .img-and-pg{
+        display: flex;
+        flex-direction: column;
+    }
+    .public_health h1{
+        width: 10vw;
+        
+    }
+    /* ends here */
+    
+    /* css for sports  */
+    .sports h1{
+        width:10vw ;
+
+    }
+    .sports-stadium-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        box-shadow: 5px 9px 11px black;
+    
+    }
+    .section-3 img {
+        margin: 1vw;
+        width: 85vw;
+        box-shadow: 5px 9px 11px black;
+        border-radius: 5px;
+    }
+
+    /* ends here */
+    /* css for toursim */
+    .tourism h1{
+        width: 10vw;
+    }
+   
+    
+    .s-1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vw;
+        text-align: center;
+        box-shadow: 5px 9px 11px black;
+        border-radius: 5px;
+        align-items: center;
+        border:4px solid darkgrey;
+
+        
+    }
+    .s img{
+        width: 85vw;
+        box-shadow: 5px 9px 11px black;
+        border-radius: 5px;
+    }
+    .s{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1vw;
+        box-shadow: 5px 9px 11px black;
+        border:none;
+    }
+    /* ends herer */
+    /* css for footer and button */
+    footer{
+        display: flex;
+        height: 10vh;
+        
+        justify-content: center;
+        align-items: flex-end;
+    
+    }
+    button  {
+        padding: 2vh 8vw;
+        text-decoration: none;
+        background: red;
+        font-size: 3vw;
+        border-radius: 14px ;
+    }
+    button a { 
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+  }
+  
+  /* Computer */
+  @media only screen and (min-width: 1024px) {
+    /* Styles for computer here */
+  }
+  

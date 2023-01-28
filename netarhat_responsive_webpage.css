@@ -1,0 +1,59 @@
+@media only screen and (max-width: 480px) {
+/* styles for mobile devices */
+   /* style for nethar-table start  here */
+
+    body{
+        display: flex;
+        flex-direction: 
+        column;
+    }
+    .netarhat-table{
+        display: flex;
+        flex-direction: column;
+        font-size: 7vw;
+    }
+
+   .netarhat-table  h1{
+    font-size:5vw;
+   }
+   .second-title{
+    padding-left: 30vw;
+   }
+   /* style for nethar-table ends here */
+
+   /* sytle for title start here */
+   .content-box h5{
+    font-size: 7vw;
+   }
+   .second-title{
+    width: 68%;
+   }
+   .third-title {
+    padding-left: 25%;
+    text-align: start;
+   }
+   .fourth-title {
+    display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   .fifth-title {
+    display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   .sixth-title {
+    display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+  }
+
+   
+         
+
+  
+
+
+
+  

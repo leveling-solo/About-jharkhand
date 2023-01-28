@@ -1,0 +1,511 @@
+body{
+    margin: 0vh 15vw;
+}
+/* this below code for table making  */
+.jharkhand-table{
+    border:1px solid black; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    float: right;
+    width: 25%;
+    
+}
+
+.jharkhand-table table th {
+    font-size: 98%;
+    padding: 0vw;
+    text-align: center;
+
+} 
+.jharkhand-table table td{
+    text-align: center;
+    padding: 1vh 0vw;
+
+}
+.jharkhand-table tr{
+    background:lightgrey;
+}
+.full-1{
+    width: 96%;
+    border-radius: 5px ;
+    
+}
+.full{
+    width:90%;
+    border-radius: 5px ;
+ mix-blend-mode: color-burn;
+}
+.half{
+    width: 95%;
+    border-radius: 5px;
+}
+.jharkhand-table h2 {
+    background-color: lightblue;
+    padding: 1vh  0vw;
+    border: 1px solid greenyellow;
+    border-radius: 5px ;
+
+}
+.jharkhand-table h3 {
+    background-color: lightblue;
+    padding: 1vh  0vw;
+    border: 1px solid greenyellow;
+
+    border-radius: 5px ;
+
+}
+
+/* the code for  table and resize the image end here  */
+
+/* here start the design for header or paragraph  */
+P{
+    font-size: 1.4vw;
+}
+
+h2 , h3{
+    background-color:lightblue;
+
+    padding: 2vh ;
+    padding-left: 19vw;
+    padding-right:18vw ;
+    
+    text-align: center;
+    
+    font-size: 2vw;
+    text-shadow: 2px 1px 15px red;
+    border-radius: 0px 0px 15px 15px;
+    display: inline-block;
+}
+h1{
+    background-color:lightblue;
+
+    padding: 2vh ;
+    padding-left: 21vw;
+    padding-right:21vw ;
+    
+    text-align: center;
+    
+    font-size: 2vw;
+    text-shadow: 2px 1px 15px lightgrey;
+    border-radius: 15px 15px 0px 0px;
+    display: inline-block;
+}
+/* ends here */
+
+/* bundle of image */
+.first-image img{
+    width: 40vw;
+    height: 50vh;
+}
+.first-image{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    border: 2px solid lightgrey;
+    border-radius: 5px ;
+
+    padding-top:3vw;
+    margin-bottom: 5vh;
+}
+
+.second-img img{
+    width: 20vw;
+    padding-left: 4vw;
+    
+}
+.second-img{
+    display: flex;
+    text-align: center;
+
+    border: 2px solid lightgrey;
+    border-radius: 5px ;
+
+    padding-top:3vw;
+    margin-bottom: 5vh;
+}
+.third-img img{
+    width: 20vw;
+    padding-left: 4vw;
+    border-bottom: 5px;
+    
+    
+}
+.third-img{
+    display: flex;
+    text-align: center;
+
+    border: 2px solid lightgrey;
+    border-radius: 5px ;
+
+    padding-top:3vw;
+    margin-bottom: 5vh;
+    justify-content: space-evenly;
+}
+
+/* ends here  */
+
+/* css for third phase  */
+.third-phase-img img{
+ padding-top: 2vh;
+ padding-right: 1vw;
+ padding-bottom: 1vh;
+ padding-left: 1vw;
+
+}
+.third-phase-img{
+    display: flex;
+    flex-direction: column;
+    
+    float: left;
+
+    width: 20vw;
+    margin-right:1vw ;
+    
+    text-align: center;
+
+    border: 1px solid lightgrey;
+    color: blue;
+}
+/* ends here */
+/* css for post -independence */
+
+.post_independence-img {
+    display: flex;
+    flex-direction: column;
+    
+    width: 28vw;
+    
+    float: right;
+
+    text-align: center;
+    
+    border: 1px solid lightgray;
+    color: blue;
+}
+.ps-img2{
+    display: flex;
+    flex-direction: column;
+    
+    width: 15vw;
+    
+    float: right;
+
+    text-align: center;
+    
+    border: 1px solid lightgray;
+    color: blue;
+    font-size: 0.8vw;
+}
+/* ends here  */
+/* css for climate  */
+.c-img{
+    display: flex;
+    flex-direction: column;
+    float: right;
+
+    width: 15vw;
+    font-size: 0.8vw;
+    text-align: center;
+    
+    border: 1px solid lightgray;
+    color: blue;
+    
+    margin-top: 3vh;
+}
+
+/* ends here  */
+/* css for flora and fauna  */
+
+.flora-and-fauna-img{
+    display: flex;
+
+}
+.faf-section1{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    font-size: 0.8vw;
+    text-align: center;
+    padding-right: 1vw;
+}
+.faf-section2{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    font-size: 0.8vw;
+    text-align: center;
+    padding-right: 1vw;
+
+}
+.faf-section3{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    font-size: 0.8vw;
+    text-align: center;
+    padding-right: 1vw;
+
+}
+/* ends here */
+/* css for historical population */
+
+.geographics-table{
+    float: right;
+    border: 1px solid lightgrey;
+    padding: 0vh 1vw;
+    margin-bottom: 2vh;
+}
+.geographics-table table td, th{
+    padding: 1.9vh 0.4vw;
+}
+.geographics-table th{
+    border-bottom: 1px solid black;
+}
+.geographics-table h4{
+    background: lightblue;
+    padding: 2vh 2vw;
+    border-radius:50% ;
+}
+/* ends here  */
+/* csss for langugae  */
+.language-table table{
+    width: 20vw;
+
+    margin-bottom:12vh;
+    border: 1px solid lightgrey;
+    padding: 0vh 1vw;
+}
+.whole-language-table{
+float: right;
+}
+.language-table th{
+    background: lightblue;
+    padding: 2vh 2vw;
+    border-radius:50% ;
+}
+.language-table table td {
+   padding: 1.2vh 0vw;
+}
+/* ends here  */
+/* csss for religion table */
+.religion-table {
+    width: 15vw;
+    float: left;
+    
+    margin-bottom:12vh;
+    border: 1px solid lightgrey;
+    padding: 1vh 0vw;
+    text-align: center;
+}
+.religion-table th{
+    background: lightblue;
+    padding: 2vh 2vw;
+    border-radius:50% ;
+}
+.religion-table table td {
+    padding: 1.2vh 0vw;
+ }
+.religion-paragarph h5{
+    font-size: 1.3vw;
+    text-align: center;
+    background:crimson;
+    display: inline-block;
+   
+    padding-left: 6vw;
+    padding-right: 5vw;
+    padding-top:1vh ;
+    padding-bottom: 1vh;
+
+    margin: 1vh;
+    border-radius: 18px 18px 18px 18px;
+    box-shadow: 5px 9px 11px black;
+}
+.religion-table img{
+    width: 12vw;
+    float: right;
+    padding-right: 1.4vw;
+}
+
+/* ends here */
+/* css for adminstrative districts */
+.division-and-districts-table  {
+    font-size: 1.2vw;
+    padding-left: 1vw; 
+    text-align: center;
+
+}
+.division-and-districts-table th{
+    background: lightcoral;
+    border-radius: 10px;
+}
+/* ends here */
+/* css for major cities  */
+.major-cities-table{
+    font-size: 1.2vw;
+    padding-left: 4vw; 
+    text-align: center;
+}
+.major-cities-table th{
+    background: lightcoral;
+    border-radius: 10px;
+    box-shadow: 5px 9px 11px black;
+
+}
+.major-cities-table td , th{
+    padding: 0.4vw;
+}
+.major-cities-img{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 12vw;
+}
+
+.box1 {
+    border: 1px solid lightgrey;
+   padding-top: 1vw;
+   margin: 1px;
+}
+.all{
+    display: flex;
+ justify-content: center;    
+}
+/* ends here */ 
+/* css for Economy  */
+.economy-img img{
+    margin: 1vw;
+}
+.economy-img{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    float: left;
+    border: 1px solid lightgrey;
+
+    margin: 1vw;
+    font-size: .9vw;
+    text-align: center;
+}
+/* ends here */
+/* css for culture */
+.cuisine-img{
+    font-size: 0.9vw;
+    float: left;
+    margin: 1vw;
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding: 1vw;
+}
+/* ends here */
+/* css for folk music and dance  */
+.folk-music-and-dance-img{
+    
+font-size: 0.9vw;
+float: left;
+margin: 1vw;
+border: 1px solid lightgrey;
+text-align: center;
+padding: 1vw;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin: 1vw;
+    justify-content: center;
+}
+.festivals-img{
+    display: flex;
+    flex-direction: row;
+}
+/* ends here */
+/* css for painting */
+.painting-img{
+    font-size: 0.9vw;
+float: left;
+margin: 1vw;
+border: 1px solid lightgrey;
+text-align: center;
+padding: 1vw;
+}
+/* ends here */
+
+/* css for  image for transport in last */
+
+.transport-img{
+ display: flex;
+    flex-direction: row;
+  align-items: center;
+}
+.transport-img img{
+    width: 20vw;
+    margin: 1vw;
+}
+/* ends here */
+
+/*css for universities and colleges   */
+.birla-institute-img{
+    font-size: 0.9vw;
+    float: left;
+    margin: 1vw;
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding: 1vw;
+}
+/* ends here */
+
+/* css for sports  */
+.sports-stadium-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 9px 11px black;
+
+}
+.section-3{
+    margin: 1vw;
+}
+/* ends here */
+/* css for toursim */
+
+.s-1{
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    text-align: center;
+}
+.s{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1vw;
+    border: 1px solid lightgrey;
+    box-shadow: 5px 9px 11px black;
+
+}
+/* ends herer */
+/* css for footer and button */
+footer{
+    display: flex;
+    height: 55vh;
+    
+    justify-content: center;
+    align-items: flex-end;
+
+}
+button  {
+    padding: 2vh 8vw;
+    text-decoration: none;
+    background: red;
+    font-size: 2vw;
+    border-radius: 14px ;
+}
+button a { 
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}

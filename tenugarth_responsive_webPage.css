@@ -1,0 +1,164 @@
+/* font-family: 'Alegreya', serif;
+font-family: 'Cardo', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Cormorant', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Kenia', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Rubik 80s Fade', cursive; */
+@media only screen and (max-width: 480px) {
+    /* styles for mobile devices */
+    body{
+            background: linear-gradient(to bottom, #B9F3FC, #AEE2FF,#93C6E7);
+          
+    }
+    .tenuDam-img{
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: end;
+        align-items: center;
+        width: 99%;
+
+        background: #FFCEFE;
+        border: none;
+        border-radius: 8px;
+        border-bottom: 5px solid #D9ACF5 ;
+        box-shadow: 5px 9px 11px black;
+    }
+    .tenuDam-img img{
+        box-shadow: 5px 9px 11px black;
+        border: none;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+    }
+    iframe {
+        box-shadow: 5px 9px 11px black;
+        border: none;
+        border: 4px solid lightgrey;
+        border-radius: 5px;
+    }
+    .one{
+        padding-top: 3vh;
+    }
+    .tenuDam-img h1{
+        padding: 2vh 10vw;
+        box-shadow: 5px 9px 11px black;
+        border-radius: 8px;
+        border-bottom: 5px solid #D9ACF5 ;    
+    }
+    
+    .blue{
+        font-size: 6vw;
+        padding: 1vh 12vw;
+    }
+    .tenuDam-img td , th{
+        font-size: 6vw;
+    }
+    .points h1{
+        font-family: 'Kenia';
+        background-color: #e01e37;
+        border-bottom: 4px solid #641220;
+        padding: 1vh 23vw;
+
+        border-radius: 5px;
+        box-shadow: 5px 9px 11px black;
+        
+        color: white;
+        font-size: 8.5vw;
+    }
+    .points p{
+        font-size: 7vw;
+        text-align: center;
+        text-shadow: 0px 0px 3px red;
+    }
+    .map h1{
+        font-family: 'Kenia';
+        background-color: #e01e37;
+        border-bottom: 4px solid #641220;
+        padding: 1vh 29vw;
+
+        border-radius: 5px;
+        box-shadow: 5px 9px 11px black;
+        
+        color: white;
+    }
+    .map p{
+        font-size: 7vw;
+        text-align: center;
+        text-shadow: 0px 0px 3px red;
+    }
+    .overview h1{
+        font-family: 'Kenia';
+        background-color: #e01e37;
+        border-bottom: 4px solid #641220;
+        padding: 1vh 31vw;
+
+        border-radius: 5px;
+        box-shadow: 5px 9px 11px black;
+        
+        color: white;
+    }
+    .overview p{
+        font-size: 7vw;
+        text-align: center;
+        text-shadow: 0px 0px 3px red;
+    }
+    .the-dam h1{
+        font-family: 'Kenia';
+        background-color: #e01e37;
+        border-bottom: 4px solid #641220;
+        padding: 1vh 33vw;
+
+        border-radius: 5px;
+        box-shadow: 5px 9px 11px black;
+        font-size: 8vw;
+        color: white;
+    }
+    .the-dam p{
+        font-size: 7vw;
+        text-align: center;
+        text-shadow: 0px 0px 3px red;
+    }
+    .tourism h1{
+        font-family: 'Kenia';
+        background-color: #e01e37;
+        border-bottom: 4px solid #641220;
+        padding: 1vh 33vw;
+
+        border-radius: 5px;
+        box-shadow: 5px 9px 11px black;
+        
+        color: white;
+    }
+    .tourism p{
+        font-size: 7vw;
+        text-align: center;
+        text-shadow: 0px 0px 3px red;
+    }
+    footer{
+        display: flex;
+        height: 10vh;
+        
+        justify-content: center;
+        align-items: flex-end;
+    
+    }
+    button  {
+        padding: 2vh 18vw;
+        text-decoration: none;
+        background: red;
+        font-size: 3.5vw;
+        border-radius: 14px ;
+    }
+    button a { 
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+  }
+  

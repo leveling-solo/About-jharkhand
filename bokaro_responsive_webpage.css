@@ -1,0 +1,115 @@
+/* font-family: 'Alegreya', serif;
+font-family: 'Cardo', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Cormorant', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Kenia', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Rubik 80s Fade', cursive; */
+@media only screen and (max-width: 480px) {
+    body{
+        background: steelblue;
+    }
+    .table{
+        box-shadow: 5px 9px 11px black;
+        border: 1px solid darkgray;
+        border-bottom:  4px solid lightcyan;
+         
+    }
+    .blue{
+        padding: 2vh 1vw;
+        text-align: center;
+        background: lightcyan;
+        box-shadow: 5px 9px 11px black;
+        border-bottom:  4px solid steelblue ;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    table td , th{
+       padding: 1vw 1vh;
+       font-size: 5vw;
+       font-family: 'Rubik 80s Fade', cursive; 
+       color: white;
+        text-shadow: 1px 1px 6px red;
+    }
+    .table img{
+        border:1px solid darkgrey;
+        box-shadow: 5px 9px 11px black;;
+    }
+    .main-gate-img{
+        box-shadow: 5px 9px 11px black;
+        border-bottom:  4px solid lightcyan; 
+        border: none;
+        margin-bottom: 8vw;
+    }
+    .main-gate-img img{
+        border:1px solid darkgrey;
+        box-shadow: 5px 9px 11px black;;
+    }
+    
+    
+    .about_Steel p{
+        font-size: 5vw;
+font-family: 'Josefin Sans', sans-serif;
+
+    }
+    .products h1{
+        background: #00FFF6;
+        
+        border-bottom: 4px solid #0014FF;
+        border-radius: 5px ;
+        box-shadow: 5px 9px 11px black;
+
+        padding: 1vh 1vw;
+        font-family: 'Cardo', serif;
+
+
+        display: flex;
+        justify-content: center;
+    }
+    .products p{
+        font-size: 5vw;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .products li{
+        font-size: 5vw;
+        font-family: 'Josefin Sans', sans-serif;
+
+
+        border-bottom: 4px solid #0014FF;
+        border-radius: 5px ;
+        box-shadow: 5px 9px 11px black;
+
+        padding: 1vh 1vw;
+
+        margin: 1vh 1vw;
+    }
+    footer{
+        display: flex;
+        height: 35vw;
+        
+        justify-content: center;
+        align-items: flex-end;
+    
+    }
+    button  {
+        padding: 2vh 8vw;
+        text-decoration: none;
+        background: red;
+        font-size: 3vw;
+        border-radius: 14px ;
+    }
+    button a { 
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+    button:hover{
+        background: #D2001A;
+    }
+}

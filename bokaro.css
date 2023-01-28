@@ -1,0 +1,65 @@
+.table{
+    border: 3px solid black;
+   padding: 0vh 1vw;
+   border-radius: 5px;
+}
+.table img{
+    border: 3px solid black;
+    border-radius: 5px;
+
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-items: center;
+    text-align: center;
+}
+.main-gate-img{
+    margin: 1vh;
+    border: 3px solid black;
+    padding:4vh 0vw ;
+   border-radius: 5px;
+
+}
+.main-gate-img img{
+    width: 80%;
+    border-radius: 5px;
+}
+p{
+    font-size: 1.3vw;
+}
+ol li{
+    font-size: 1.2vw;
+    padding-bottom: 1vh;
+}
+
+.blue{
+    background-color: steelblue;
+    padding-left: 2vw;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    height: 55vh;
+    
+    justify-content: center;
+    align-items: flex-end;
+
+}
+button  {
+    padding: 2vh 8vw;
+    text-decoration: none;
+    background: red;
+    font-size: 2vw;
+    border-radius: 14px ;
+}
+button a { 
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+body{
+    background: #ff2f2f;
+}
